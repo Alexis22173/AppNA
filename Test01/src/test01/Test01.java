@@ -5,6 +5,8 @@
  */
 package test01;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author AlexisS7
@@ -16,7 +18,8 @@ public class Test01 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hola Alexis");
+//        System.out.println("Hola Alexis");
+        JOptionPane.showMessageDialog(null, "Hola ALexis");
     }
     
 }
